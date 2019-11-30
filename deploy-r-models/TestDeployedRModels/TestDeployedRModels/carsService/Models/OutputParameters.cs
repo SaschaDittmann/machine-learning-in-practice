@@ -4,12 +4,7 @@
 
 namespace TestDeployedRModels.Models
 {
-    using System;
-    using System.Linq;
-    using System.Collections.Generic;
     using Newtonsoft.Json;
-    using Microsoft.Rest;
-    using Microsoft.Rest.Serialization;
 
     public partial class OutputParameters
     {

@@ -6,7 +6,6 @@ namespace TestDeployedRModels.Models
 {
     using Microsoft.Rest;
     using System;
-    using System.Net.Http;
     using System.Runtime.Serialization;
 #if !PORTABLE && !DNXCORE50
     using System.Security.Permissions;
@@ -62,16 +61,6 @@ namespace TestDeployedRModels.Models
         }
 
 #if !PORTABLE && !DNXCORE50
-        /// <summary>
-        /// Initializes a new instance of the ErrorException class.
-        /// </summary>
-        /// <param name="info">Serialization info.</param>
-        /// <param name="context">Streaming context.</param>
-        protected ErrorException(SerializationInfo info, StreamingContext context)
-            : base(info, context)
-        {
-        }
-
         /// <summary>
         /// Serializes content of the exception.
         /// </summary>
